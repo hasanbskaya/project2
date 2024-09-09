@@ -1,0 +1,94 @@
+.gradient-background {
+    background: linear-gradient(300deg, #C96868, #FADFA1, #7EACB5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+#title div h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nerko One', cursive;
+  padding-top: 150px;
+  color: #0D7C66;
+}
+body p{
+  font-family: 'Nerko One', cursive;
+  color: #0D7C66;
+}
+#myself h2{
+  font-family: 'Nerko One', cursive;
+  color: #0D7C66;
+}
+
+#myself div{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  height: 60vh;
+  margin-top: 100px
+}
+.about-img{
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+#cat-img{
+  background-image: url(./images/cat-typing.gif);
+}
+#developer-img{
+  background-image: url(./images/developer.jpg);
+}
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 20px;
+}
+.about-container img{
+  height: auto;
+  width: 200px;
+}
+.about-text, .about-text2{
+  max-width: 600px;
+}
+.about-text h3{
+  margin: 0;
+  padding-bottom: 10px;
+}
+.about-container p{
+  margin: 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+
